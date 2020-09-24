@@ -7087,6 +7087,7 @@ interface HTMLImageElement extends HTMLElement {
     /**
      * Sets or retrieves a Uniform Resource Identifier (URI) to a long description of the object.
      */
+    loading: string;
     /** @deprecated */
     longDesc: string;
     /** @deprecated */
